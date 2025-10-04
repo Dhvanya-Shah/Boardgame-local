@@ -76,8 +76,10 @@ to set it up
 8. run .jar file -> java -jar database_service_project-0.0.7.jar
 
 9. output
-  <img width="1590" height="827" alt="image" src="https://github.com/user-attachments/assets/2886ada0-4773-4e11-b490-8041d104b759" />
+  <img width="1591" height="788" alt="image" src="https://github.com/user-attachments/assets/821b3bd1-556f-4aaf-a0de-437a5c19f863" />
 
+
+<img width="1909" height="835" alt="image" src="https://github.com/user-attachments/assets/59705d82-5945-4428-80de-452ed7ba9e37" />
 
 
 10. make sure port 8080 is listening on server to check use nmap -sT -O localhost  -> it should provide you list of all open ports on server , look for port 8080/tcp

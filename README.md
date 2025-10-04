@@ -51,3 +51,42 @@ This web application displays lists of board games and their reviews. While anyo
   - username: bugs    |     password: bunny (user role)
   - username: daffy   |     password: duck  (manager role)
 5. You can also sign-up as a new user and customize your role to play with the application! 😊
+
+
+All credit to Devopshak @ aditya Jaiswal for providing this boardgame code 
+
+I have cloned it to my RHEL 
+
+to set it up 
+
+1. install Java -> dnf install java or to be specific for this project install java-11-openjdk
+
+2. install maven -> dnf install maven -y
+
+3. clone this repo -> git clone https://github.com/Dhvanya-Shah/Boardgame-local.git
+
+4.compile ->  mvn compile 
+
+5. test -> mvn test (run from target folder )
+
+6. package -> mvn package
+
+7. change directory to target folder -> cd target/
+
+8. run .jar file -> java -jar database_service_project-0.0.7.jar
+
+9. output
+  <img width="1590" height="827" alt="image" src="https://github.com/user-attachments/assets/2886ada0-4773-4e11-b490-8041d104b759" />
+
+
+
+10. make sure port 8080 is listening on server to check use nmap -sT -O localhost  -> it should provide you list of all open ports on server , look for port 8080/tcp
+
+11. opent it on you browser -> "serverip":8080 
+
+Thank you 
+
+
+
+
+
